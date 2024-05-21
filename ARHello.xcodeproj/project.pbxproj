@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63C251DD2BDFE79300B25C53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C251DC2BDFE79300B25C53 /* AppDelegate.swift */; };
+		63C251DF2BDFE79300B25C53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C251DE2BDFE79300B25C53 /* ContentView.swift */; };
+		63C251E12BDFE79400B25C53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63C251E02BDFE79400B25C53 /* Assets.xcassets */; };
+		63C251E42BDFE79400B25C53 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63C251E32BDFE79400B25C53 /* Preview Assets.xcassets */; };
+		63C251F52BDFEC8800B25C53 /* ARHello_visionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C251F42BDFEC8800B25C53 /* ARHello_visionApp.swift */; };
+		63C251F72BDFEC8800B25C53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C251F62BDFEC8800B25C53 /* ContentView.swift */; };
+		63C251FD2BDFEC8900B25C53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63C251FC2BDFEC8900B25C53 /* Assets.xcassets */; };
+		63C252002BDFEC8900B25C53 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63C251FF2BDFEC8900B25C53 /* Preview Assets.xcassets */; };
+		63C252212BE58A6200B25C53 /* TextModelEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C252202BE58A6200B25C53 /* TextModelEntity.swift */; };
+		63C252222BE58A6600B25C53 /* TextModelEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C252202BE58A6200B25C53 /* TextModelEntity.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		63C251D92BDFE79300B25C53 /* ARHello.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARHello.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C251DC2BDFE79300B25C53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63C251DE2BDFE79300B25C53 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		63C251E02BDFE79400B25C53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63C251E32BDFE79400B25C53 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		63C251EE2BDFEC8800B25C53 /* ARHello-vision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ARHello-vision.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C251F42BDFEC8800B25C53 /* ARHello_visionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARHello_visionApp.swift; sourceTree = "<group>"; };
+		63C251F62BDFEC8800B25C53 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		63C251FC2BDFEC8900B25C53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63C251FF2BDFEC8900B25C53 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		63C252012BDFEC8900B25C53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63C252202BE58A6200B25C53 /* TextModelEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextModelEntity.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63C251D62BDFE79300B25C53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63C251EB2BDFEC8800B25C53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		631FAE182BFCF09600D64A76 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				63C252202BE58A6200B25C53 /* TextModelEntity.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		63C251D02BDFE79300B25C53 = {
+			isa = PBXGroup;
+			children = (
+				631FAE182BFCF09600D64A76 /* Common */,
+				63C251DB2BDFE79300B25C53 /* ARHello */,
+				63C251EF2BDFEC8800B25C53 /* ARHello-vision */,
+				63C251DA2BDFE79300B25C53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63C251DA2BDFE79300B25C53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63C251D92BDFE79300B25C53 /* ARHello.app */,
+				63C251EE2BDFEC8800B25C53 /* ARHello-vision.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63C251DB2BDFE79300B25C53 /* ARHello */ = {
+			isa = PBXGroup;
+			children = (
+				63C251DC2BDFE79300B25C53 /* AppDelegate.swift */,
+				63C251DE2BDFE79300B25C53 /* ContentView.swift */,
+				63C251E02BDFE79400B25C53 /* Assets.xcassets */,
+				63C251E22BDFE79400B25C53 /* Preview Content */,
+			);
+			path = ARHello;
+			sourceTree = "<group>";
+		};
+		63C251E22BDFE79400B25C53 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				63C251E32BDFE79400B25C53 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		63C251EF2BDFEC8800B25C53 /* ARHello-vision */ = {
+			isa = PBXGroup;
+			children = (
+				63C251F42BDFEC8800B25C53 /* ARHello_visionApp.swift */,
+				63C251F62BDFEC8800B25C53 /* ContentView.swift */,
+				63C251FC2BDFEC8900B25C53 /* Assets.xcassets */,
+				63C252012BDFEC8900B25C53 /* Info.plist */,
+				63C251FE2BDFEC8900B25C53 /* Preview Content */,
+			);
+			path = "ARHello-vision";
+			sourceTree = "<group>";
+		};
+		63C251FE2BDFEC8900B25C53 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				63C251FF2BDFEC8900B25C53 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63C251D82BDFE79300B25C53 /* ARHello */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63C251E72BDFE79400B25C53 /* Build configuration list for PBXNativeTarget "ARHello" */;
+			buildPhases = (
+				63C251D52BDFE79300B25C53 /* Sources */,
+				63C251D62BDFE79300B25C53 /* Frameworks */,
+				63C251D72BDFE79300B25C53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARHello;
+			productName = ARHello;
+			productReference = 63C251D92BDFE79300B25C53 /* ARHello.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63C251ED2BDFEC8800B25C53 /* ARHello-vision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63C252022BDFEC8900B25C53 /* Build configuration list for PBXNativeTarget "ARHello-vision" */;
+			buildPhases = (
+				63C251EA2BDFEC8800B25C53 /* Sources */,
+				63C251EB2BDFEC8800B25C53 /* Frameworks */,
+				63C251EC2BDFEC8800B25C53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ARHello-vision";
+			packageProductDependencies = (
+			);
+			productName = "ARHello-vision";
+			productReference = 63C251EE2BDFEC8800B25C53 /* ARHello-vision.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63C251D12BDFE79300B25C53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					63C251D82BDFE79300B25C53 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					63C251ED2BDFEC8800B25C53 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 63C251D42BDFE79300B25C53 /* Build configuration list for PBXProject "ARHello" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63C251D02BDFE79300B25C53;
+			productRefGroup = 63C251DA2BDFE79300B25C53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63C251D82BDFE79300B25C53 /* ARHello */,
+				63C251ED2BDFEC8800B25C53 /* ARHello-vision */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63C251D72BDFE79300B25C53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C251E42BDFE79400B25C53 /* Preview Assets.xcassets in Resources */,
+				63C251E12BDFE79400B25C53 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63C251EC2BDFEC8800B25C53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C251FD2BDFEC8900B25C53 /* Assets.xcassets in Resources */,
+				63C252002BDFEC8900B25C53 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63C251D52BDFE79300B25C53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C251DF2BDFE79300B25C53 /* ContentView.swift in Sources */,
+				63C251DD2BDFE79300B25C53 /* AppDelegate.swift in Sources */,
+				63C252212BE58A6200B25C53 /* TextModelEntity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63C251EA2BDFEC8800B25C53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C251F72BDFEC8800B25C53 /* ContentView.swift in Sources */,
+				63C251F52BDFEC8800B25C53 /* ARHello_visionApp.swift in Sources */,
+				63C252222BE58A6600B25C53 /* TextModelEntity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		63C251E52BDFE79400B25C53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63C251E62BDFE79400B25C53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63C251E82BDFE79400B25C53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ARHello/Preview Content\"";
+				DEVELOPMENT_TEAM = FV623ZGNZS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.niftycode.ARHello;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63C251E92BDFE79400B25C53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ARHello/Preview Content\"";
+				DEVELOPMENT_TEAM = FV623ZGNZS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.niftycode.ARHello;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		63C252032BDFEC8900B25C53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ARHello-vision/Preview Content\"";
+				DEVELOPMENT_TEAM = FV623ZGNZS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.niftycode.ARHello-vision";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Debug;
+		};
+		63C252042BDFEC8900B25C53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ARHello-vision/Preview Content\"";
+				DEVELOPMENT_TEAM = FV623ZGNZS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.niftycode.ARHello-vision";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63C251D42BDFE79300B25C53 /* Build configuration list for PBXProject "ARHello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63C251E52BDFE79400B25C53 /* Debug */,
+				63C251E62BDFE79400B25C53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63C251E72BDFE79400B25C53 /* Build configuration list for PBXNativeTarget "ARHello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63C251E82BDFE79400B25C53 /* Debug */,
+				63C251E92BDFE79400B25C53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63C252022BDFEC8900B25C53 /* Build configuration list for PBXNativeTarget "ARHello-vision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63C252032BDFEC8900B25C53 /* Debug */,
+				63C252042BDFEC8900B25C53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63C251D12BDFE79300B25C53 /* Project object */;
+}
